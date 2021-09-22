@@ -7,10 +7,11 @@
 </head>
   <style>
    * {color:#000;text-decoration:none}
+	  body{margin:0;padding:0}
     html {background:#fafafa}
-    body {background:#fff;padding:15px;box-sizing:border-box;margin:0 auto;width:80%}
+    #body {background:#fff;padding:15px;box-sizing:border-box;margin:0 auto;width:80%}
 @media (max-width:1024px) {
-body {width:100%}
+#body {width:100%}
 }
     </style>
 	
@@ -38,7 +39,7 @@ document.write("<img src='http://"+id+"' onerror=\"this.style.display = 'none'\"
 <div style='height:80px'></div>	
 		
 	
-  <body> 
+<body><div id='body'> 
 
 <style>
 	span a {font-size:13px;line-height:13px}
@@ -297,5 +298,5 @@ pretty savage remix slow ver</a>
 </s>
 
 
-  </body>
+  </div></body>
 </html>
