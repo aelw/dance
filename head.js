@@ -6,9 +6,4 @@ function getParameterByName(name) {
 }
 var id = getParameterByName('img');
 
-document.write("\
-<center>   \n\
-  <img src='http://"+id+"' onerror=\"this.style.display = 'none'\" style='width:80px;height:80px;padding:15px;border-radius:25px'>\n\
-</center>");
-
 document.write("<span style='color:#fafafa'><a href='http://stock.1002.pw/dance?img="+id+"'>KPOP</a> / <a href='http://stock.1002.pw/dance/bts?img="+id+"'>BTS</a> / <a href='http://stock.1002.pw/dance/bp?img="+id+"'>Blackpink</a> / <a href='/1/bts?img="+id+"'>BTS</a> / <a href='http://stock.1002.pw/dance/itzy?img="+id+"'>Itzy</a> / <a href='http://stock.1002.pw/dance/twice?img="+id+"'>Twice</a></span><br>");
