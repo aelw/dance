@@ -7,3 +7,17 @@ function getParameterByName(name) {
 var id = getParameterByName('img');
 
 document.write("<div style='white-space: nowrap;width:100%;overflow-x:scroll'><span style='color:#fafafa'><a href='http://stock.1002.pw/dance?img="+id+"'>KPOP</a> / <a href='http://stock.1002.pw/dance/bts?img="+id+"'>BTS</a> / <a href='http://stock.1002.pw/dance/bp?img="+id+"'>Blackpink</a> / <a href='http://stock.1002.pw/dance/itzy?img="+id+"'>Itzy</a> / <a href='http://stock.1002.pw/dance/twice?img="+id+"'>Twice</a> / <a href='http://stock.1002.pw/dance/txt?img="+id+"'>TXT</a></span></div>");
+
+document.write("\
+	  <script async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9733039422277496\"\n\
+     crossorigin=\"anonymous\"></","script>\n\
+<!-- 사각형a -->\n\
+<ins class=\"adsbygoogle\"\n\
+     style=\"display:block\"\n\
+     data-ad-client=\"ca-pub-9733039422277496\"\n\
+     data-ad-slot=\"6433994609\"\n\
+     data-ad-format=\"auto\"\n\
+     data-full-width-responsive=\"true\"></ins>\n\
+<script>\n\
+     (adsbygoogle = window.adsbygoogle || []).push({});\n\
+</","script>");
