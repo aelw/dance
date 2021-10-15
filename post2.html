@@ -21,7 +21,7 @@
 
 </head>
 <body>
-
+	
 <script>
 	function getParameterByName(name) {
     name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
@@ -32,12 +32,14 @@
 var uid = getParameterByName('q');
 </script>
 	
-<div class="container"><script>
+<script>
 document.write("\
+<div class=\"container\">\n\
 <video controls crossorigin playsinline poster=\"\" loop=\"loop\" id=\"player\">\n\
 <source src=\"http://"+uid+"\" type=\"video/mp4\" size=\"360\">\n\
-</video>");
-</script></div>
+</video>\n\
+</div>");
+</script>
 	
 <script src='https://cdn.plyr.io/3.4.6/plyr.js'></script>
 <script>
